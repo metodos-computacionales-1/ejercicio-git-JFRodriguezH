@@ -1,16 +1,13 @@
 #include<iostream>
+#include<cmath>
 
 int main()
 {
-    int N;
-    std::cout<<"Escriba N:\n";
-    std::cin>>N;
-    int a=0;
-    for(int i=0; i<=N; i++)
-    {
-        a+=i;
-        std::cout<<a<<std::endl;
-    }
+    float R;
+    std::cout<<"Escriba el radio R:\n";
+    std::cin>>R;
+    float pi=2.0*asin(1.0);
+    std::cout<<"El diametro es: "<<2.0*R<<std::endl;
     
     return 0;
 }
