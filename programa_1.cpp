@@ -2,7 +2,9 @@
 
 int main()
 {
-    int N=100;
+    int N;
+    std::cout<<"Escriba N:\n";
+    std::cin>>N;
     int a=0;
     for(int i=0; i<=N; i++)
     {
