@@ -9,6 +9,7 @@ int main()
     float pi=2.0*asin(1.0);
     std::cout<<"El diametro es: "<<2.0*R<<std::endl;
     std::cout<<"El perimetro es: "<<2.0*pi*R<<std::endl;
+    std::cout<<"El area es: "<<pi*R*R<<std::endl;
     
     return 0;
 }
